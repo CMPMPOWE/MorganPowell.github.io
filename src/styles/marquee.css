@@ -1,0 +1,45 @@
+*{
+
+
+    margin: 0;
+    padding:0; 
+    box-sizing:border-box;
+}
+
+
+
+.spacer{
+    height:800px;
+}
+
+.marquee{
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    background:#ffffff;
+    color:#0d0d0d;
+    padding:30px 0;
+    font-weight: 800;
+    
+    font-size:80px;
+    text-transform:uppercase;
+    overflow:hidden;
+      animation: marquee 10s linear infinite;
+}
+
+
+.marquee_inner{
+    display:flex;
+    width:fit-content;
+    flex: auto;
+    flex-direction:row;
+
+}
+
+.marquee_part {
+
+    display:flex;
+    align-items:center;
+    flex-shrink:0;
+    padding: 0 4px;
+}
+

@@ -1,0 +1,8 @@
+@import 'flowbite';
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden; /* Disable horizontal scrolling */
+}

@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: 'Blanquotey';
+    src: url('/src/assets/fonts/Blanquotey.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.landingpageBackground {
+    height: 80vh; /* Takes up the full viewport height */
+    width: 95vw; /* Takes up the full viewport width */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    background-size: cover; /* Ensures the background image covers the entire area */
+    background-position: center;
+    
+}
+
+/* For larger screens, you can set a max-height if needed */
+@media screen and (min-width: 1024px) {
+    .landingpageBackground {
+        height: 90vh; /* Adjust the height for larger screens */
+    }
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .landingpageBackground {
+        height: 80vh; /* Slightly shorter for smaller devices */
+    }
+}
+
+.TitleFullStackDeveloper {
+    padding: 10px;
+    font-size: 5rem;
+    overflow: scroll;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #196cbb;
+    color:#000
+
+
+}
+
+.draggable-container {
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    margin: 20px
+}
+
+.draggable-text {
+    cursor: grab;
+    position: absolute;
+    top: 0; /* Start at the top */
+    left: 50%;
+    transform: translateX(-50%);
+   ;/* Center horizontally */
+}
+
+    .draggable-text:active {
+        cursor: grabbing;
+    }
+
+.imageProfileContainer{
+    background-color:#fff;
+    border-radius:5px;
+    width:30em;
+    height:20em;
+   position:absolute;
+    right:50px;
+}
+
+/* Full-screen background for landing page */
+.landingpage-container {
+     /* Reduced height */
+     height:88vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+    position: relative;
+    overflow: hidden; /* Prevent content overflow */
+}
+
+/* Draggable container with a border */
+.draggable-container {
+    width: 100%;
+    height: 90vh;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Letters styling */
+.letters {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.letter {
+    font-family: 'Blanquotey', sans-serif;
+    font-size: 20rem;
+    color: black;
+    cursor: grab;
+    position: relative;
+    user-select: none;
+    padding:20px;
+}
+
+    .letter:active {
+        cursor: grabbing;
+        color: #999;
+        transform: scale(1.1);
+    }

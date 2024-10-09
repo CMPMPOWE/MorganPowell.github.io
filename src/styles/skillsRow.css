@@ -1,0 +1,37 @@
+/* Default grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, auto); /* 4 columns */
+    grid-template-columns: repeat(8, auto); /* 4 columns */
+    gap: 10px; /* 2px spacing between items */
+    padding: 20px;
+    list-style: none; /* Remove bullet points */
+    justify-content: center;
+}
+
+    /* Style the list items */
+    .grid-container li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Style the images */
+    .grid-container img {
+        width: 75px;
+        height: 75px;
+    }
+
+/* Breakpoint for medium screens (e.g., tablets) */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(3, auto); /* 3 columns */
+    }
+}
+
+/* Breakpoint for small screens (e.g., phones) */
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: repeat(2, auto); /* 2 columns */
+    }
+}
