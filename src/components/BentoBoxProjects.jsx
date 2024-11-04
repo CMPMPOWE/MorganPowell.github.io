@@ -18,7 +18,7 @@ const BentoBoxProjects: React.FC = () => {
                                     Mobile friendly
                                 </p>
                                 <p className="mt-2 max-w-lg text-sm text-gray-600 dark:text-gray-400 max-lg:text-center">
-                                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                                  test
                                 </p>
                             </div>
                             <div className="relative min-h-[30rem] w-full grow max-lg:mx-auto max-lg:max-w-sm">
@@ -43,7 +43,7 @@ const BentoBoxProjects: React.FC = () => {
                                     Performance
                                 </p>
                                 <p className="mt-2 max-w-lg text-sm text-gray-600 dark:text-gray-400 max-lg:text-center">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.
+                                 test-project2
                                 </p>
                             </div>
                             <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
@@ -66,7 +66,7 @@ const BentoBoxProjects: React.FC = () => {
                                     Security
                                 </p>
                                 <p className="mt-2 max-w-lg text-sm text-gray-600 dark:text-gray-400 max-lg:text-center">
-                                    Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi.
+                                project-test3
                                 </p>
                             </div>
                             <div className="flex flex-1 items-center max-lg:py-6 lg:pb-2">
@@ -89,7 +89,7 @@ const BentoBoxProjects: React.FC = () => {
                                     Powerful APIs
                                 </p>
                                 <p className="mt-2 max-w-lg text-sm text-gray-600 dark:text-gray-400 max-lg:text-center">
-                                    Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget sem sodales gravida.
+                                  testing enviroment
                                 </p>
                             </div>
                             <div className="relative min-h-[30rem] w-full grow">
