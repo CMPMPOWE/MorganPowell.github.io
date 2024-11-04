@@ -54,4 +54,4 @@ export default tseslint.config({
   },
 })
 ```
-Download the Node.js in your cleint folder.
+Download the Node.js in your client folder.
